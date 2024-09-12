@@ -97,3 +97,21 @@ body {
     flex-direction: column;
     gap: 15px;
 }
+
+.margens-titulos {
+    margin: 15px 0;
+}
+
+#modo-de-preparo ol li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-bottom: 10px;
+
+    &:last-child {
+        margin: 0;
+    }
+
+    &::marker {
+        font-weight: 780;
+    }
+}
